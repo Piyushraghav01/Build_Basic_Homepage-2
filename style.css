@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
-    /* padding: 0; */
     font-family:Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #fcf5eb;
 }
+
 /* box-1 */
 
-.navbar{
+.navbar {
     background-color: #fcf5eb;
     height: 80px;
     width: 100%;
     display: flex;
 }
-.logo{
+
+.logo {
     background-image: url("imgs/logo_img.png");
     height: 30px;
     width: 130px;
@@ -23,23 +25,24 @@ body{
     margin-left: 30px;
     margin-top: 20px;
 }
-.nav-text{
+
+.nav-text {
     display: flex;
     margin-left: 250px;
 
 }
-.box{
+
+.box { 
     margin-left: 50px;
     margin-top: 30px;
 }
-.button{
-    margin-top: 20px;
-    margin-left: 250px;
 
-   
-    
+.button {
+    margin-top: 20px;
+    margin-left: 250px;       
 }
-.add{
+
+.add {
     height: 50px;
     width: 140px;
     font-size: 1rem;
@@ -50,8 +53,10 @@ body{
     background-color: green;
     color: white;
 }
-/* box-2 */
-.Slider{
+
+/* box-2 */ 
+
+.Slider {
     background-image: url("imgs/slider_img.png");
     height: 700px;
     width: 95%;
@@ -61,26 +66,29 @@ body{
     margin-left: 40px;
     margin-bottom: 30px;
 }
-.text{
+
+.text {
     color: white;
     margin-left: 15%;
     padding-top: 200px;
 }
-.text-add1{
+
+.text-add1 {
     font-size: 5rem;
     font-weight: 500;
-    
-
 }
-.text-add2{
+
+.text-add2 {
     margin: 4px;
     font-weight: 500;
     font-size: 1.2rem;
 }
-.button{
+
+.button {
     margin-left: 230px;
 }
-.add-button{
+
+.add-button {
     height: 50px;
     width: 140px;
     font-size: 1rem;
@@ -89,35 +97,44 @@ body{
     
 
 }
-.add-button:hover{
+.add-button:hover {
     background-color: green;
     color: white;
-}
+} 
+
 /* box-3 */
-.img-add{
+
+.img-add {
     height: 300px;
 }
-.imgs{
+
+.imgs {
     background-image: url("imgs/S_img.png");
     height: 250px;
     width: 90%;
     background-size: cover;
     margin-left: 60px;
 }
+
 /* box-4 */
-.paragraph{
+
+.paragraph {
     text-align: center;
 }
-.add-1{
+
+.add-1 {
     margin: 5px;
     font-size: 2.5rem;
     font-weight: 500;
 }
+
 /* box-5 */
-.img-add2{
+
+.img-add2 {
     height: 300px;
 }
-.imgs-2{
+
+.imgs-2 {
     background-image: url("imgs/S_img.png");
     height: 250px;
     width: 90%;
@@ -125,36 +142,44 @@ body{
     margin-left: 60px;
     margin-top: 20px;
 }
+
 /* box-6 */
-.foot-section{
+
+.foot-section {
     background-color: rgba(0, 0, 0, 0.918);
     height: 450px;
     color: white;
 }
-.foot-panel{
+
+.foot-panel {
     display: flex;
 }
+
 ul{
     margin-top: 70px;
     margin-left: 140px;
     margin-bottom: 50px;
 }
-ul p{
+
+ul p {
     margin: 20px;
 }
-.foot-panel-2{
+
+.foot-panel-2 {
     text-align: center;
     margin-top: 25px;
     margin-right: 10px;
 }
-p button{
+
+p button {
     height: 50px;
     width: 170px;
     font-size: 1rem;
     background-color: rgb(14, 225, 14);
     border-radius: 35px;
 }
-button:hover{
+
+button:hover {
     background-color: green;
     color: white;
 }
